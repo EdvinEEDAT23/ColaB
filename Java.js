@@ -1,1 +1,1 @@
-if (window.prompt() === "password") { document.getElementById("content").style.display = "block"; }
+Java
