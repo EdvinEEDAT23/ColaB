@@ -5,8 +5,8 @@
 	mask-image: ATS ;
 }
 @font-face {
-  font-family: GraublauWeb;
-  src: url("Bilder/CODE\ Light.otf") format("opentype");
+  font-family: code;
+  src: url("Bilder/CODE.otf") format("opentype");
 }
 .Rubrik {
 	font-size: 2.5rem;
