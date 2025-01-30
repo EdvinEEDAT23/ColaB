@@ -3,15 +3,21 @@
 	background-color: black;
 	color: white;
 	mask-image: ATS ;
+  font-family: "CODE";
 }
-
+@font-face {
+  font-family: CODE;
+  src: url("Bilder/CODE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 .Rubrik {
 	font-size: 2.5rem;
 	border: 5px solid white;
 	margin: 50px;
 	padding: 20px;
 	border-radius: 20px;
-	font-family: monospace;
+	font-family: "CODE",sans-serif;
 }
 .Bog {
 	padding: 20px;
