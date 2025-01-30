@@ -3,6 +3,7 @@
 	background-color: black;
 	color: white;
 	mask-image: ATS ;
+  font-family: "CODE";
 }
 @font-face {
   font-family: CODE;
