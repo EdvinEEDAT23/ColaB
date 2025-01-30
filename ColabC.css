@@ -5,8 +5,10 @@
 	mask-image: ATS ;
 }
 @font-face {
-  font-family: code;
+  font-family: CODE;
   src: url("Bilder/CODE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 .Rubrik {
 	font-size: 2.5rem;
@@ -14,7 +16,7 @@
 	margin: 50px;
 	padding: 20px;
 	border-radius: 20px;
-	font-family: code;
+	font-family: "CODE",sans-serif;
 }
 .Bog {
 	padding: 20px;
