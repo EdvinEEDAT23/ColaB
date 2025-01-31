@@ -1,0 +1,131 @@
+Vecka 5
+
+Jag har gjort koola och advancerade saker som rgb text i hemsidan med denna kod
+
+.rgb {
+  font-family: monospace;
+  font-size: 3em;
+  animation: color-change 7.5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color:orange; }
+  20% { color: yellow; }
+  30% { color: lawngreen; }
+  40% { color: turquoise; }
+  50% { color: cyan; }
+  60% { color: #008fff; }
+  70% { color: magenta; }
+  80% { color: deeppink; }
+  90% { color: #ff0083; }
+  100% { color: red; }
+}
+
+<p class="rgb">Valfri text</p>
+
+Det jag gjorde är att jag snodde kod där man skapar en class som har en animation som heter color-change som loppar och loopen tar 7,5 sekunder.
+Sedan skapar man en keyframes objekt med namnet color-change där man sedan sätter in vad den ska göra när den är ett antal % färdig med animationen.
+Till sist ancallar man classen rgb
+
+Jag har också skapat en massa sub sidor som en minnes hemsida till gamla simhallen och en låst hemsida för admin kontroller.
+
+Jag gömde admin sidan bakom en bild som flyttar på sig efter man har tryckt ett custom kort kommand, detta skrev jag i java såhär.
+
+const image = document.getElementById('imageToMove');
+let topPosition = 150;
+let leftPosition = 1350;
+
+// Event listener to detect arrow key presses
+window.addEventListener('keydown', function(event) {
+  const step = 2; // Number of pixels to move the image
+
+  if (event.ctrlKey && event.key === "0") {
+    // Do Something, may be an 'Undo' operation
+    leftPosition -= step;
+  }
+  //switch(event.key) {
+    //case 'ArrowUp':
+      //topPosition -= step;
+      //break;
+    //case 'ArrowDown':
+      //topPosition += step;
+      //break;
+    //case 'ArrowLeft':
+      //leftPosition -= step;
+      //break;
+    //case 'ArrowRight':
+      //leftPosition += step;
+      //break;
+  //}
+  //Above moves "imageToMove" with arrow keys
+
+  // Update the position of the image
+  image.style.top = `${topPosition}px`;
+  image.style.left = `${leftPosition}px`;
+});
+
+Jag använde ett gammalt flytta bild kod och ändrade knapperna till ctrl och 0 så att det blev ett hemligt kommando.
+Här är resten av koden som skapar classerna och ankallar objekterna
+
+#imageToMove {
+  position: absolute; /* Enables positioning */
+  top: 150px;
+  left: 1350px;
+  width: 50px;
+}
+
+<img src="Bilder/Block.jpg" id="imageToMove" alt="Movable Image">
+
+Jag har också lagt in en söndrig notes funktion som om du klickar enter så krashar hemsidan, här är koden
+
+<form action="/action_page.php">
+  <label for="fname">Notes</label>
+  <input type="text" id="fname" name="fname"><br><br>
+</form>
+
+Det var egentiligen en login grej som jag pajade
+
+Jag har varigt i ett världskrig med hemsidan om att försöka få ett eget täckensnitt att fungera.
+Tillslut fick jag det att funka med hjälp av @font-face koden som söker efter en font fil och infogar den som en font, i detta fall en .otf (opentype) fil.
+
+@font-face {
+  font-family: CODE;
+  src: url("Bilder/CODE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+Efter jag skrev detta kunde jag ändra teckensnittet på allt som inte har fått ett annat specifikt tekensnitt till det jag ville med denna koden där jag använder body delen i css för att ändra standard texten och färgen
+
+body {
+  font-family: "CODE";
+  color: white;
+}
+
+Jag har också importat gammal kod då text ändar tekensnitt och färg om man håller musen över det, den funkar såhär.
+
+.ex1 {
+color: white;
+transition: color 2.2s;
+}
+.ex1:hover, .ex1:active {
+  color: red; 
+  font-size: 100%; 
+  font-family: monospace;
+}
+
+Jag skapade en klass "ex1" som har vit färg och om något händer med den tar det 2,2 sekunder att byta färg.
+sedan gjorde jag så att om man höll musen över text med klassen ex1 blir den röd och byter teckensnitt till monospace.
+
+Exempel på detta kan man se om man holler över länken till vattenhus memoriamen med att den blir röd och monospace teckensnitt.
+
+<p class="ex1">In memoriam <a href="https://edvineedat23.github.io/ColaB/Memoriam">simhallen</a></p>
+
+Jag skapade också en liten snabb genväg tillbaka till huvudsidan med att lägga in detta i rubrik delen av varge tidig subsida
+
+<a href="https://edvineedat23.github.io/ColaB/" style="color: white;">Text på rubrik</a>
+
+Jag har också hjälp oskar och edvin med vissa grejer då och då, dem har också hjälpt mig då och då.
+
+Vecka 6
