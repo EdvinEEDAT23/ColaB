@@ -1,0 +1,78 @@
+Vecka 5
+
+Jag har gjort koola och advancerade saker som rgb text i hemsidan med denna kod
+
+.rgb {
+  font-family: monospace;
+  font-size: 3em;
+  animation: color-change 7.5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% { color:orange; }
+  20% { color: yellow; }
+  30% { color: lawngreen; }
+  40% { color: turquoise; }
+  50% { color: cyan; }
+  60% { color: #008fff; }
+  70% { color: magenta; }
+  80% { color: deeppink; }
+  90% { color: #ff0083; }
+  100% { color: red; }
+}
+
+<p class="rgb">Valfri text</p>
+
+Det jag gjorde är att jag snodde kod där man skapar en class som har en animation som heter color-change som loppar och loopen tar 7,5 sekunder.
+Sedan skapar man en keyframes objekt med namnet color-change där man sedan sätter in vad den ska göra när den är ett antal % färdig med animationen.
+Till sist ancallar man classen rgb
+
+Jag har också skapat en massa sub sidor som en minnes hemsida till gamla simhallen och en låst hemsida för admin kontroller.
+
+Jag gömde admin sidan bakom en bild som flyttar på sig efter man har tryckt ett custom kort kommand, detta skrev jag i java såhär.
+
+const image = document.getElementById('imageToMove');
+let topPosition = 150;
+let leftPosition = 1350;
+
+// Event listener to detect arrow key presses
+window.addEventListener('keydown', function(event) {
+  const step = 2; // Number of pixels to move the image
+
+  if (event.ctrlKey && event.key === "0") {
+    // Do Something, may be an 'Undo' operation
+    leftPosition -= step;
+  }
+  //switch(event.key) {
+    //case 'ArrowUp':
+      //topPosition -= step;
+      //break;
+    //case 'ArrowDown':
+      //topPosition += step;
+      //break;
+    //case 'ArrowLeft':
+      //leftPosition -= step;
+      //break;
+    //case 'ArrowRight':
+      //leftPosition += step;
+      //break;
+  //}
+  //Above moves "imageToMove" with arrow keys
+
+  // Update the position of the image
+  image.style.top = `${topPosition}px`;
+  image.style.left = `${leftPosition}px`;
+});
+
+Jag använde ett gammalt flytta bild kod och ändrade knapperna till ctrl och 0 så att det blev ett hemligt kommando.
+Här är resten av koden som skapar classerna och ankallar objekterna
+
+#imageToMove {
+  position: absolute; /* Enables positioning */
+  top: 150px;
+  left: 1350px;
+  width: 50px;
+}
+
+<img src="Bilder/Block.jpg" id="imageToMove" alt="Movable Image">
