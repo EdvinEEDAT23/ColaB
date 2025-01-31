@@ -76,3 +76,56 @@ Här är resten av koden som skapar classerna och ankallar objekterna
 }
 
 <img src="Bilder/Block.jpg" id="imageToMove" alt="Movable Image">
+
+Jag har också lagt in en söndrig notes funktion som om du klickar enter så krashar hemsidan, här är koden
+
+<form action="/action_page.php">
+  <label for="fname">Notes</label>
+  <input type="text" id="fname" name="fname"><br><br>
+</form>
+
+Det var egentiligen en login grej som jag pajade
+
+Jag har varigt i ett världskrig med hemsidan om att försöka få ett eget täckensnitt att fungera.
+Tillslut fick jag det att funka med hjälp av @font-face koden som söker efter en font fil och infogar den som en font, i detta fall en .otf (opentype) fil.
+
+@font-face {
+  font-family: CODE;
+  src: url("Bilder/CODE.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+Efter jag skrev detta kunde jag ändra teckensnittet på allt som inte har fått ett annat specifikt tekensnitt till det jag ville med denna koden där jag använder body delen i css för att ändra standard texten och färgen
+
+body {
+  font-family: "CODE";
+  color: white;
+}
+
+Jag har också importat gammal kod då text ändar tekensnitt och färg om man håller musen över det, den funkar såhär.
+
+.ex1 {
+color: white;
+transition: color 2.2s;
+}
+.ex1:hover, .ex1:active {
+  color: red; 
+  font-size: 100%; 
+  font-family: monospace;
+}
+
+Jag skapade en klass "ex1" som har vit färg och om något händer med den tar det 2,2 sekunder att byta färg.
+sedan gjorde jag så att om man höll musen över text med klassen ex1 blir den röd och byter teckensnitt till monospace.
+
+Exempel på detta kan man se om man holler över länken till vattenhus memoriamen med att den blir röd och monospace teckensnitt.
+
+<p class="ex1">In memoriam <a href="https://edvineedat23.github.io/ColaB/Memoriam">simhallen</a></p>
+
+Jag skapade också en liten snabb genväg tillbaka till huvudsidan med att lägga in detta i rubrik delen av varge tidig subsida
+
+<a href="https://edvineedat23.github.io/ColaB/" style="color: white;">Text på rubrik</a>
+
+Jag har också hjälp oskar och edvin med vissa grejer då och då, dem har också hjälpt mig då och då.
+
+Vecka 6
