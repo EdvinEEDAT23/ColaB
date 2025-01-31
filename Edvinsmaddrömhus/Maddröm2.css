@@ -5,6 +5,11 @@
 	mask-image: ATS ;
 }
 
+div.static {
+position:static;
+border: 3px solid #008fff;
+}
+
 .Rubrik {
 	font-size: 2.5rem;
 	border: 5px solid white;
