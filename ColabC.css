@@ -34,7 +34,11 @@ transition: color 2.2s;
   font-size: 100%; 
   font-family: monospace;
 }
-
+.ex2 {
+  position: absolute;
+  top: 140px;
+  left: 1392px;
+}
 .rgb {
   font-family: monospace;
   font-size: 3em;
@@ -53,4 +57,11 @@ transition: color 2.2s;
   80% { color: deeppink; }
   90% { color: #ff0083; }
   100% { color: red; }
+}
+
+#imageToMove {
+  position: absolute; /* Enables positioning */
+  top: 150px;
+  left: 1350px;
+  width: 50px;
 }
