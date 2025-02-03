@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>VattnetsHus.EEDAT</title>
+	<link rel="icon" type="image/x-icon" href="Bilder/Man.jpg">
+
+<! -- CSS länk -->
+	<link rel="stylesheet" type="text/css" href="ColabC.css" />
+
+</head>
+<body class="Body">
+	<h2 class="Rubrik">War command</h2>
+	<div class="Bog">
+		
+<p class="ex2"><a href="https://edvineedat23.github.io/ColaB/AdminBackdoor" style="color: white;">.</a></p>
+<p><a href="https://edvineedat23.github.io/ColaB/EdvinsHus/EdvinsHus">EdvinsHus</a></p>
+<p class="ex1">Shallow list of war crimes <a href="https://edvineedat23.github.io/ColaB/Memoriam">Full list</a>Edvins 5 classer för 3 ord, Edvins extrema missuppfattning av vad en war crime är, Oshkars missinformation</p>
+<p class="rgb">Map of Hemsida</p>
+<form action="/action_page.php">
+  <label for="fname">Notes</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <img src="Bilder/Block.jpg" id="imageToMove" alt="Movable Image">
+  <p> <a href="https://edvineedat23.github.io/ColaB/Edvinsmaddr%C3%B6mhus/Maddr%C3%B6m1.html"style="color: #000000;">Ogges mardröm</a></p>
+</form>
+</div>
+	<script type="text/javascript" src="Java.js"></script>
+	
+</body>
+</html> 
