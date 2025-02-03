@@ -1,0 +1,29 @@
+.Sidebar {
+    position: absolute;
+    color: white;
+    border: 3px solid rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40);
+    left: 0px;
+    top: 0px;
+    margin-right: 86.55%;
+    padding-bottom: 100%;
+    padding-left: 10px;
+    padding-right: 10%;
+}
+.Edvinhus {
+    position: absolute;
+    padding-right: 7.5%;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 2px;
+    left: 5px;
+    top: 5px;
+}
+.options {
+    padding-top: 90px;
+}
+.flik1 {
+    border: 1px solid white;
+}
