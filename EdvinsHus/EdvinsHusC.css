@@ -1,14 +1,15 @@
 .Sidebar {
     position: absolute;
     color: white;
-    border: 3px solid rgb(40, 40, 40);
+    border: 3px solid rgba(177, 149, 65, 0.688);
+    border-style: none;
     background-color: rgb(40, 40, 40);
     left: 0px;
     top: 0px;
-    margin-right: 86.55%;
+    margin-right: 90%;
     padding-bottom: 100%;
-    padding-left: 10px;
-    padding-right: 10%;
+    padding-left: 5px;
+    padding-right: 0px;
 }
 .Edvinhus {
     position: absolute;
@@ -18,12 +19,17 @@
     padding-bottom: 5px;
     padding-left: 15px;
     border-radius: 2px;
-    left: 5px;
+    left: 10px;
     top: 5px;
 }
 .options {
     padding-top: 90px;
 }
-.flik1 {
-    border: 1px solid white;
+.bar {
+    position: relative;
+    left: -9px;
+    top: -35px;
+}
+#expand {
+    padding-left: 150px;
 }
