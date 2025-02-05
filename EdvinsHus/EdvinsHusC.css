@@ -33,3 +33,20 @@
 #expand {
     padding-left: 150px;
 }
+#grad3 {
+    position: relative;
+    z-index: -2;
+    left: -100px;
+    height: 10000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 75%, rgb(152, 152, 152) 85%, rgb(87, 87, 87) 90%, rgb(32, 32, 32) 95%);
+  }
+  #grad4 {
+    position: relative;
+    z-index: -1;
+    left: 8px;
+    top: -10000px;
+    height: 10000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 75%, rgb(152, 152, 152) 85%, rgb(87, 87, 87) 90%, rgb(32, 32, 32) 95%);
+  }
