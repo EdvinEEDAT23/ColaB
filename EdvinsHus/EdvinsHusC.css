@@ -1,26 +1,82 @@
-.Sidebar {
-    position: absolute;
-    color: white;
-    border: 3px solid rgba(177, 149, 65, 0.688);
-    border-style: none;
-    background-color: rgb(40, 40, 40);
-    left: 0px;
-    top: 0px;
-    margin-right: 90%;
-    padding-bottom: 100%;
-    padding-left: 5px;
-    padding-right: 0px;
+/* Dator */
+@media screen and (min-width: 1201px) {
+    .Sidebar {
+        position: absolute;
+        color: white;
+        border: 3px solid rgba(177, 149, 65, 0.688);
+        border-style: none;
+        background-color: rgb(40, 40, 40);
+        left: 0px;
+        top: 0px;
+        margin-right: 90%;
+        padding-bottom: 100%;
+        padding-left: 5px;
+        padding-right: 0px;
+    }
+    .Edvinhus {
+        position: absolute;
+        padding-right: 7.5%;
+        border: 2px solid white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        border-radius: 2px;
+        left: 10px;
+        top: 5px;
+    }
+    .options {
+        padding-top: 90px;
+    }
+    .bar {
+        position: relative;
+        left: -9px;
+        top: -35px;
+    }
+    #expand {
+        padding-left: 150px;
+    }
 }
-.Edvinhus {
-    position: absolute;
-    padding-right: 7.5%;
-    border: 2px solid white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    border-radius: 2px;
-    left: 10px;
-    top: 5px;
+
+/* Mobil */
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 55%;
+    }
+    .Sidebar {
+        position: absolute;
+        color: white;
+        border: 3px solid rgba(177, 149, 65, 0.688);
+        border-style: none;
+        background-color: rgb(40, 40, 40);
+        left: 0px;
+        top: 0px;
+        margin-right: 80%;
+        padding-bottom: 100%;
+        padding-left: 2px;
+        padding-right: 0px;
+    }
+    .Edvinhus {
+        position: absolute;
+        padding-right: 7.5%;
+        border: 2px solid white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        border-radius: 2px;
+        left: 7px;
+        top: 5px;
+    }
+    .options {
+        padding-top: 55px;
+    }
+    .bar {
+        position: relative;
+        left: -9px;
+        top: -35px;
+    }
+    #expand {
+        padding-left: 100px;
+    }
 }
 .options {
     padding-top: 90px;
