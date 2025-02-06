@@ -1,3 +1,8 @@
+body {
+    max-height: 39990px;
+    overflow-x: hidden;
+}
+
 /* Dator */
 @media screen and (min-width: 1201px) {
     .Sidebar {
@@ -9,7 +14,7 @@
         left: 0px;
         top: 0px;
         margin-right: 90%;
-        padding-bottom: 100%;
+        padding-bottom: 2436%;
         padding-left: 5px;
         padding-right: 0px;
     }
@@ -86,6 +91,16 @@
     left: -9px;
     top: -35px;
 }
+.Ner_Bild {
+    position: absolute;
+    top: 39157px;
+    right: 1px;
+}
+.Backrooms {
+    position: absolute;
+    top: 39690px;
+    left: 1370px;
+}
 #expand {
     padding-left: 150px;
 }
@@ -93,16 +108,16 @@
     position: relative;
     z-index: -2;
     left: -100px;
-    height: 10000px;
+    height: 40000px;
     background-color: white; /* For browsers that do not support gradients */
-    background-image: linear-gradient(white 0%, white 75%, rgb(152, 152, 152) 85%, rgb(87, 87, 87) 90%, rgb(32, 32, 32) 95%);
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
   }
   #grad4 {
     position: relative;
     z-index: -1;
     left: 8px;
-    top: -10000px;
-    height: 10000px;
+    top: -40000px;
+    height: 40000px;
     background-color: white; /* For browsers that do not support gradients */
-    background-image: linear-gradient(white 0%, white 75%, rgb(152, 152, 152) 85%, rgb(87, 87, 87) 90%, rgb(32, 32, 32) 95%);
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
   }
