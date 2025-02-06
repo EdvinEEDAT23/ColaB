@@ -1,10 +1,17 @@
 
+body {
+  overflow-x: hidden;
+}
+
 .Body {
 	background-color: black;
 	color: white;
 	mask-image: ATS ;
 }
-
+.txt{
+  position: relative;
+  top: 10px;
+}
 div.static {
 position:static;
 border: 3px solid #fff;
@@ -49,4 +56,10 @@ transition: color 2.2s;
   80% { color: deeppink; }
   90% { color: #ff0083; }
   100% { color: red; }
+}
+
+.Bilders{
+  position:relative;
+  margin-top: 100px;
+  left: 6565px;
 }
