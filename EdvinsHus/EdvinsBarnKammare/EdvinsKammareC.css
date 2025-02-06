@@ -21,12 +21,20 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    position: relative;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0);
   }
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddd;
+    background-color: #ddddddb1;
     color: black;
+  }
+
+  .header a.logo:hover {
+    background-color: #ddddddb1;
+    color: #dddddd00;
   }
   
   /* Style the active/current link*/
@@ -39,7 +47,7 @@
   .header-right {
     float: right;
   }
-
+  
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
     .header a {
@@ -50,4 +58,11 @@
     .header-right {
       float: none;
     }
+  }
+
+  .Logga {
+    position: absolute;
+    top: 29.5px;
+    left: 22px;
+    z-index: 1;
   }
