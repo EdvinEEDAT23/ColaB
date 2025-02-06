@@ -14,9 +14,10 @@ body {
         left: 0px;
         top: 0px;
         margin-right: 90%;
-        padding-bottom: 2436%;
+        padding-bottom: 2622%;
         padding-left: 5px;
         padding-right: 0px;
+        background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 87%, rgb(19, 19, 19) 95%);
     }
     .Edvinhus {
         position: absolute;
