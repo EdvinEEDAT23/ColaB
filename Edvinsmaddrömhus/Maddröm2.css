@@ -63,3 +63,7 @@ transition: color 2.2s;
   margin-top: 100px;
   left: 6565px;
 }
+.center{
+  display: block; 
+  margin: auto;
+}
