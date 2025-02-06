@@ -1,5 +1,6 @@
 body {
     max-height: 39990px;
+    overflow-x: hidden;
 }
 
 /* Dator */
@@ -94,6 +95,11 @@ body {
     position: absolute;
     top: 39157px;
     right: 1px;
+}
+.Backrooms {
+    position: absolute;
+    top: 39690px;
+    left: 1370px;
 }
 #expand {
     padding-left: 150px;
