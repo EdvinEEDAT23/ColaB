@@ -1,7 +1,14 @@
+body {
+    background-color: black;
+    color: black;
+    text-shadow: 1px 1.5px 2px red, 0 0 1em red, 0 0 2.2em red;
+    font-size: 32px;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #323232;
     padding: 20px 10px;
   }
   
@@ -24,16 +31,17 @@
     position: relative;
     z-index: 2;
     color: rgba(255, 255, 255, 0);
+    text-shadow: none;
   }
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: #ddddddb1;
+    background-color: #ff0000b1;
     color: black;
   }
 
   .header a.logo:hover {
-    background-color: #ddddddb1;
+    background-color: #ff000067;
     color: #dddddd00;
   }
   
