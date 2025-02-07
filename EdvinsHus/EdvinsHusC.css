@@ -1,8 +1,9 @@
+/* gustavs kod */
 body {
     max-height: 39990px;
     overflow-x: hidden;
 }
-
+/* edvins kod */
 /* Dator */
 @media screen and (min-width: 1201px) {
     .Sidebar {
@@ -13,10 +14,10 @@ body {
         background-color: rgb(40, 40, 40);
         left: 0px;
         top: 0px;
-        margin-right: 90%;
-        padding-bottom: 2622%;
-        padding-left: 5px;
-        padding-right: 0px;
+        margin-right: 85%;
+        padding-bottom: 2602%;
+        padding-left: 25px;
+        padding-right: 45px;
         background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 87%, rgb(19, 19, 19) 95%);
     }
     .Edvinhus {
@@ -33,6 +34,16 @@ body {
     .options {
         padding-top: 90px;
     }
+    #toggle {
+        position: absolute;
+        left: 0;
+        top: 90px;
+        width: 100%;
+        z-index: 1;
+        opacity: 0;
+        cursor: pointer;
+        height: 45px;
+      }
     .bar {
         position: relative;
         left: -9px;
@@ -47,6 +58,8 @@ body {
 @media screen and (max-width: 800px) {
     body {
         font-size: 55%;
+        width: 100px;
+        overflow-x: hidden;
     }
     .Sidebar {
         position: absolute;
@@ -83,6 +96,8 @@ body {
     #expand {
         padding-left: 100px;
     }
+
+/* gustavs kod */
 }
 .options {
     padding-top: 90px;
