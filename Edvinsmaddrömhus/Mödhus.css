@@ -1,0 +1,71 @@
+
+body {
+    overflow-x: hidden;
+  }
+  
+  .Body {
+      background-color: black;
+      color: white;
+      mask-image: ATS ;
+  }
+  .txt{
+    position: relative;
+    top: 10px;
+  }
+  div.static {
+  position:static;
+  border: 3px solid #fff;
+  }
+  
+  .Rubrik {
+      font-size: 2.5rem;
+      border: 5px solid white;
+      margin: 50px;
+      padding: 20px;
+      border-radius: 20px;
+      font-family: monospace;
+  }
+  .Bog {
+      padding: 20px;
+  }
+  .ex1 {
+  color: white;
+  transition: color 2.2s;
+  }
+  .ex1:hover, .ex1:active {
+    color: red; 
+    font-size: 100%; 
+    font-family: monospace;
+  }
+  
+  .rgb {
+    font-family: monospace;
+    font-size: 3em;
+    animation: color-change 7.5s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    10% { color:orange; }
+    20% { color: yellow; }
+    30% { color: lawngreen; }
+    40% { color: turquoise; }
+    50% { color: cyan; }
+    60% { color: #008fff; }
+    70% { color: magenta; }
+    80% { color: deeppink; }
+    90% { color: #ff0083; }
+    100% { color: red; }
+  }
+  
+  .Bilders{
+    position:relative;
+    margin-top: 100px;
+    left: 6565px;
+  }
+  .center{
+    display: block; 
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+  }
