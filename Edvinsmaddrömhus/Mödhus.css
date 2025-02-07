@@ -66,4 +66,6 @@ body {
   .center{
     display: block; 
     margin: auto;
+    text-align: center;
+    font-size: 100px;
   }
