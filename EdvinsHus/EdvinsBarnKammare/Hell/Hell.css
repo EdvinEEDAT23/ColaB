@@ -3,6 +3,8 @@ body {
     color: black;
     text-shadow: 1px 1.5px 2px red, 0 0 1em red, 0 0 2.2em red;
     font-size: 32px;
+    max-height: 39990px;
+    overflow-x: hidden;
 }
 
 /* Style the header with a grey background and some padding */
@@ -74,3 +76,49 @@ body {
     left: 22px;
     z-index: 1;
   }
+
+  .Backrooms94 {
+    position: absolute;
+    right: 2%;
+  }
+
+  .Nether {
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+  }
+
+  .Pools {
+    position: absolute;
+    top: 39650px;
+    right: 38%;
+    animation: Sparkle 3.5s infinite linear
+  }
+
+  @keyframes Sparkle {
+    0%  {transform: rotate(0deg);}
+    25%  {transform: scale(1.2,1.6); opacity: 25%; rotate: 900deg;}
+    50%  {transform: rotate(220deg) scale(1.8,0.5); opacity: 90%;}
+    75%  {opacity: 45%; transform: scale(-1,1.4); rotate: 180deg;}
+    100%  {transform: rotate(360deg);}
+  }
+
+  #grad1 {
+    position: relative;
+    z-index: -1;
+    left: 8px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(40, 40, 40) 65%, rgb(136, 136, 136) 80%, rgb(247, 247, 247) 95%);
+  }
+
+  #grad2 {
+    position: relative;
+    z-index: -1;
+    left: -8px;
+    top: -40000px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgb(40, 40, 40) 65%, rgb(136, 136, 136) 80%, rgb(247, 247, 247) 95%);
+  }
+  

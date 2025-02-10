@@ -1,0 +1,19 @@
+.Level {
+    position: absolute;
+    right: 0.72%;
+    transform: scale(-1.03,1.2);
+    top: 8.2%;
+}
+.Level2 {
+    position: absolute;
+    left: 0%;
+    transform: scale(1.03,1.2);
+    top: 8.2%;
+}
+.Click {
+    position: absolute;
+    transform: scale(3.5,4.5);
+    z-index: 2;
+    top: 42%;
+    left: 35%;
+}
