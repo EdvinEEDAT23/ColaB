@@ -14,13 +14,19 @@ body {
         background-color: rgb(40, 40, 40);
         left: 0px;
         top: 0px;
-        margin-right: 85%;
+        margin-right: 80%;
         padding-bottom: 2602%;
         padding-left: 25px;
-        padding-right: 45px;
+        padding-right: 95px;
         background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 87%, rgb(19, 19, 19) 95%);
     }
-    .Edvinhus {
+    .Loggotyp {
+        position: absolute;
+        left: 5px;
+        top: 20px;
+
+    }
+    /*.Edvinhus {
         position: absolute;
         padding-right: 7.5%;
         border: 2px solid white;
@@ -30,10 +36,8 @@ body {
         border-radius: 2px;
         left: 10px;
         top: 5px;
-    }
-    .options {
-        padding-top: 90px;
-    }
+    } */
+    /* Toggle meny */
     #toggle {
         position: absolute;
         left: 0;
@@ -44,11 +48,10 @@ body {
         cursor: pointer;
         height: 45px;
       }
-    .bar {
-        position: relative;
-        left: -9px;
-        top: -35px;
-    }
+      #toggle:checked ~ ul {
+        visibility: hidden;
+        opacity: 0;
+      }
     #expand {
         padding-left: 150px;
     }
