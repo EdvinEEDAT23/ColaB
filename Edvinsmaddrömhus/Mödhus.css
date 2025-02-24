@@ -39,7 +39,6 @@ body {
   }
   
   .rgb {
-    font-family: monospace;
     font-size: 3em;
     animation: color-change 7.5s infinite;
   }
