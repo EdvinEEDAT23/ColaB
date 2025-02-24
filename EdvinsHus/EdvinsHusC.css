@@ -48,6 +48,13 @@ body {
         cursor: pointer;
         height: 45px;
       }
+    .meny {
+        border: 3px;
+    }
+    .ulla {
+        position: relative;
+        top: -10px;
+    }
       #toggle:checked ~ ul {
         visibility: hidden;
         opacity: 0;
@@ -55,6 +62,10 @@ body {
     #expand {
         padding-left: 150px;
     }
+    #toggle:not(:checked) ~ ul {
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+}
 }
 
 /* Mobil */
