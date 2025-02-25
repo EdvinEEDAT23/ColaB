@@ -87,9 +87,42 @@ body {
         opacity: 1;
         transition: opacity 0.3s ease-in-out;
 }
-.sidor {
-    margin-left: 18%;
+.options {
+    padding-top: 90px;
+    margin-left: 18%
 }
+.bar {
+    position: relative;
+    left: -9px;
+    top: -35px;
+}
+.Ner_Bild {
+    position: absolute;
+    top: 39157px;
+    right: 1px;
+}
+.Backrooms {
+    position: absolute;
+    top: 39690px;
+    left: 1370px;
+}
+#grad3 {
+    position: relative;
+    z-index: -2;
+    left: -100px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+  }
+  #grad4 {
+    position: relative;
+    z-index: -1;
+    left: 8px;
+    top: -40000px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+  }
 }
 
 /* Mobil */
@@ -108,9 +141,10 @@ body {
         left: 0px;
         top: 0px;
         margin-right: 80%;
-        padding-bottom: 100%;
+        padding-bottom: 5245%;
         padding-left: 2px;
         padding-right: 0px;
+        background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 87%, rgb(19, 19, 19) 95%);
     }
     .Edvinhus {
         position: absolute;
@@ -134,9 +168,39 @@ body {
     #expand {
         padding-left: 100px;
     }
+    
+    .Ner_Bild {
+        position: absolute;
+        top: 39630px;
+        right: 1px;
+    }
+    .Backrooms {
+        position: absolute;
+        top: 39875px;
+        left: 90%;
+    }
+    #grad3 {
+        position: relative;
+        z-index: -2;
+        left: 270px;
+        height: 40000px;
+        background-color: white; /* For browsers that do not support gradients */
+        background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+        transform: scaleX(7);
+      }
+      #grad4 {
+        position: relative;
+        z-index: -1;
+        left: -50px;
+        top: -40000px;
+        height: 40000px;
+        background-color: white; /* For browsers that do not support gradients */
+        background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 25%, rgb(40, 40, 40) 65%, rgb(40, 40, 40) 80%, rgb(19, 19, 19) 95%);
+      }
 
-/* gustavs kod */
 }
+/* gustavs kod */
+/*
 .options {
     padding-top: 90px;
 }
@@ -157,15 +221,15 @@ body {
 }
 #expand {
     padding-left: 150px;
-}
-#grad3 {
+}*/
+/*#grad3 {
     position: relative;
     z-index: -2;
     left: -100px;
     height: 40000px;
     background-color: white; /* For browsers that do not support gradients */
-    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
-  }
+/*  background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+/*  }
   #grad4 {
     position: relative;
     z-index: -1;
@@ -173,5 +237,7 @@ body {
     top: -40000px;
     height: 40000px;
     background-color: white; /* For browsers that do not support gradients */
-    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
-  }
+/*  background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+    }
+
+    
