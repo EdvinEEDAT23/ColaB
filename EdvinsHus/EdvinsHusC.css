@@ -17,7 +17,7 @@ body {
         margin-right: 80%;
         padding-bottom: 2602%;
         padding-left: 25px;
-        padding-right: 95px;
+        padding-right: 25px;
         background-image: linear-gradient(rgb(40, 40, 40) 0%, rgb(40, 40, 40) 87%, rgb(19, 19, 19) 95%);
     }
     .Loggotyp {
@@ -48,9 +48,30 @@ body {
         cursor: pointer;
         height: 45px;
       }
-    .meny {
-        border: 3px;
+    nav h3 {
+        border-radius: 2px;
+        background: rgb(0, 75, 118);
+        height: 30px;
+        width: 215px;
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
     }
+    h3::after{
+        position: relative;
+        right: 0;
+        top: 0;
+        height: inherit;
+        aspect-ratio: 1;
+        background: currentColor;
+        display: flex;
+        align-items: center;
+        padding-right: 1rem;
+        content: "";
+        clip-path: polygon(50% 25%, 20% 80%, 80% 80%);
+        transform: rotate(180deg) scale(0.75);
+      }
     .ulla {
         position: relative;
         top: -10px;
@@ -65,42 +86,46 @@ body {
     #toggle:not(:checked) ~ ul {
         opacity: 1;
         transition: opacity 0.3s ease-in-out;
-    }
-    .options {
-        padding-top: 90px;
-    }
-    .bar {
-        position: relative;
-        left: -9px;
-        top: -35px;
-    }
-    .Ner_Bild {
-        position: absolute;
-        top: 39157px;
-        right: 1px;
-    }
-    .Backrooms {
-        position: absolute;
-        top: 39690px;
-        left: 1370px;
-    }
-    #grad3 {
-        position: relative;
-        z-index: -2;
-        left: -100px;
-        height: 40000px;
-        background-color: white; /* For browsers that do not support gradients */
-        background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
-      }
-      #grad4 {
-        position: relative;
-        z-index: -1;
-        left: 8px;
-        top: -40000px;
-        height: 40000px;
-        background-color: white; /* For browsers that do not support gradients */
-        background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
-      }
+}
+.options {
+    padding-top: 90px;
+    
+}
+.bar {
+    position: relative;
+    left: -9px;
+    top: -35px;
+}
+.Ner_Bild {
+    position: absolute;
+    top: 39157px;
+    right: 1px;
+}
+.Backrooms {
+    position: absolute;
+    top: 39690px;
+    left: 1370px;
+}
+#grad3 {
+    position: relative;
+    z-index: -2;
+    left: -100px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+  }
+  #grad4 {
+    position: relative;
+    z-index: -1;
+    left: 8px;
+    top: -40000px;
+    height: 40000px;
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(white 0%, white 25%, rgb(152, 152, 152) 65%, rgb(87, 87, 87) 80%, rgb(19, 19, 19) 95%);
+  }
+  .sidor {
+    margin-left: 18%;
+  }
 }
 
 /* Mobil */
