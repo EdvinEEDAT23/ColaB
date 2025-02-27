@@ -1,0 +1,19 @@
+body {
+    overflow: hidden;
+}
+
+.Background {
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+
+}
+
+.Enter {
+    position: relative;
+    left: 45.5%;
+    top: 380px;
+    transform: scale(1.45,1);
+}
+
