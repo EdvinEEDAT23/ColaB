@@ -128,4 +128,37 @@ Jag skapade också en liten snabb genväg tillbaka till huvudsidan med att lägg
 
 Jag har också hjälp oskar och edvin med vissa grejer då och då, dem har också hjälpt mig då och då.
 
-Vecka 6
+Vecka 6-9
+
+Skapade en djup källa i edvins hus med hjälp av Background-image: linear-gradient och jag skapade en bild som tar dig till en annan sida med att sätta en <img> i en <href>
+I källan skapade jag en liten meny där man kan välja mellan att gå tillbaka till huset, källare main och en om oss hemsida med en skämt affär.
+
+Efter det ville jag göra något roligare så jag skapade hellvetet som ännu inte är klart men jag har kommit minst 10% beroende på hur lat jag är.
+Några grejer att anmärka kan vara att jag använde text skuggor för att göra det läskigare så här skrevs det.
+
+color: black; // gör textfärgen svart
+    text-shadow: 1px 1.5px 2px red, 0 0 1em red, 0 0 2.2em red; //lägger in skuggan som är röd och har konstiga valutor
+    font-size: 32px; //text storlek
+
+Jag har också valt att lära mig saker istället för att bara sno kod så jag läste på hur man animerar i ungefär 1 timme för att det fanns inga gifs för dat jag ville så jag gjorde det själv
+
+  .Pools {
+    position: absolute; //gör bilden flyttbar samt dom under flyttar den
+    top: 39650px;
+    right: 38%;
+    animation: Sparkle 3.5s infinite linear //ankallar en animation som heter Sparkle som pågor i 3,5 sekunder, loopar, och övergången är linjär för att det inte ska se hackigt ut.
+  }
+
+  @keyframes Sparkle { //skapar en animation som heter Sparkle. % talen menar hur lågt in i animation den är vad som händer.
+    0%  {transform: rotate(0deg);} //satte den på 0 grader för att jag viste inte om det var ett set typ kommand eller ändrar linjärt
+    25%  {transform: scale(1.2,1.6); opacity: 25%; rotate: 900deg;} //ändrade storlek och snurrade den massa gånger och gjorde den lite genomskilnig
+    50%  {transform: rotate(220deg) scale(1.8,0.5); opacity: 90%;} //samma sak fast okila valutor
+    75%  {opacity: 45%; transform: scale(-1,1.4); rotate: 180deg;} //igen, fast flippade den med -1 i scale
+    100%  {transform: rotate(360deg);} //snurrade mer
+  }
+
+Efter detta har jag mest jobbat med att sätta osynliga bilder på en annan bild för att skapa ett sorts spel. 
+Jag försöke också lära mig om localstorage och cookies lite men jag kunde inte lista ut hur jag skulle använda det i mitt fall med tanke på alla tutorials för för helt andra användningar.
+Kanske kommer att försöka igen i framtiden.
+
+Vecka 10
